@@ -6,9 +6,10 @@ body {
 header {
     display: flex;
     justify-content: center;
+    height: 120px;
 }
 
 .container {
-    width: 990px;
+    display: flex;
     justify-content: space-between;
 }

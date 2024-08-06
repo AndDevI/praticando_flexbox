@@ -104,6 +104,9 @@ nav a:hover {
 
 .banner1, .banner2, .banner3 {
     flex: 1;
+    padding: 20px;
+
+    color: white;
 }
 
 .banner1 {
@@ -116,4 +119,23 @@ nav a:hover {
 
 .banner3 {
     background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.bunner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
 }

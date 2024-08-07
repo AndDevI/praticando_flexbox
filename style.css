@@ -153,3 +153,25 @@ p {
     margin: 0px;
     padding: 0px;
 }
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#main section {
+    flex: 2;
+}
+
+#main aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin: 30px;
+}
+
+.title_d {
+    border-bottom: 3px solid #36a9e1;
+    padding: 10px;
+}

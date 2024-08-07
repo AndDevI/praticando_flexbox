@@ -139,3 +139,17 @@ nav a:hover {
     font-size: 12px;
     text-decoration: none;
 }
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.400);
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}

@@ -175,3 +175,22 @@ p {
     border-bottom: 3px solid #36a9e1;
     padding: 10px;
 }
+
+article .news_data {
+    display: flex;
+}
+
+.date, .comment {
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.date {
+    background-color: #2b4c99;   
+}
+
+.comment {
+    background-color: #39aae1;
+}

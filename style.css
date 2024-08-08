@@ -168,7 +168,14 @@ p {
 }
 
 .widget_title {
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .widget_body {
@@ -181,11 +188,6 @@ article {
     min-width: 300px;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-.title_d {
-    border-bottom: 3px solid #36a9e1;
-    padding: 10px;
 }
 
 article .news_data {
@@ -252,4 +254,63 @@ aside .cubes {
     display: flex;
     margin-left: 10px;
     align-items: center;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+}
+
+.footer_itens {
+    flex: 1;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: white;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.footer_copy {
+    border-top: 1px solid gray;
+    height: 40px;
+    line-height: 40px;
+    color: #727272;
+    margin-top: 30px;
 }

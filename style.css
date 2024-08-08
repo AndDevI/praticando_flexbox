@@ -315,3 +315,7 @@ footer .widget_title_text {
     color: #727272;
     margin-top: 30px;
 }
+
+footer .widget_body {
+    color: white;
+}

@@ -223,8 +223,33 @@ article .news_title {
     font-size: 23px;
 }
 
-article .news_resume {
+article .news_resume, .text_appoint {
     color: rgb(59, 59, 59);
     line-height: 20px;
     font-size: 14px;
+}
+
+aside .cubes {
+    background-color: #0079c7;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.img_contact {
+    background-color: #727272;
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
 }
